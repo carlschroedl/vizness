@@ -1,27 +1,35 @@
-Development
+##Development##
 
-Install
-git
-nodejs
-gulp
-bower
+###Install###
+ - git
+ - nodejs
+ - gulp
+ - bower
 
-Optionally:
+###Optionally:###
 jshint
 
-Fork and clone this repository.
+###Fork and clone this repository.###
 Change to the directory where you cloned.
+
 Run:
-$ npm install
+```
+npm install
+```
+
 This will install system-level packages. These packages help automate our development tasks. For example: wiredep (More on that later).
-
-$ bower install
+```
+bower install
+```
 This will install web packages. These are javascript or css libraries that we build our application on top of. For example: bootstrap.
-
-$ gulp build
+```
+gulp build
+```
 This will perform automatic tasks like less->css compilation, javascript linting, and running tests.
 
-$ gulp serve
+```
+gulp serve
+```
 If all goes well, a browser window will open showing the project. The command keeps running until you stop it with Ctl+C / Cmd+C. The command watches your source files for changes and refreshes the browser automatically.
 
 
