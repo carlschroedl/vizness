@@ -8,6 +8,7 @@ var reload = browserSync.reload;
 
 gulp.task('styles', function () {
   return gulp.src('app/styles/main.less')
+    .pipe($.sourcemaps.init())
     .pipe($.less({
       paths: ['.'] 
     }))

@@ -38,4 +38,6 @@ This command will insert the library's CSS and javascript files into index.html 
 
 Before you make further changes to the project, I suggest you commit the changes with a message like "Added bootstrap".
 
-
+To debug LESS, follow the instructions on this site to enable CSS source maps:
+http://robdodson.me/debug-less-with-chrome-developer-tools/#settingupchromeahrefidsettingupchromea
+You only need to do the instructions under the 'Setting Up Chrome' section. The rest is already taken care of for you.
