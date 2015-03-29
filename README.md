@@ -3,10 +3,23 @@
 ###Install System Dependencies###
  - [git](http://git-scm.com/)
  - [nodejs](https://nodejs.org/)
- - bower and gulp : ```npm install bower gulp -g```
+  - Ensure that you select installer options so that `node` and `npm` are added to the system path
+ - bower and gulp :
+ 
+ ```
+ npm install bower gulp -g
+ ```
 
 ###Optionally###
- - If you want do syntax-checking on a JavaScript file on-demand, install jshint : ```node install -g jshint```. Subsequently you can check the syntax of a JavaScript file by running : ```jshint YOUR_FILENAME_HERE```
+ - If you want do syntax-checking on a JavaScript file on-demand, install `jshint` : 
+ 
+ ```
+ node install -g jshint
+ ```
+ Subsequently you can check the syntax of a JavaScript file by running :
+ ```
+ jshint YOUR_FILENAME_HERE
+ ```
 
 ###Set up the App###
  - Fork and clone this repository.
