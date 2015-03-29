@@ -32,7 +32,7 @@ npm install
 ```
 bower install
 ```
- - Now you will build the project. This performs automatic tasks like LESS->CSS compilation, JavaScript linting, and running tests.
+ - Now you will build the project. This performs automatic tasks like Less->CSS compilation, JavaScript linting, and running tests.
 ```
 gulp build
 ```
@@ -57,5 +57,5 @@ Now that you have the library's files, you can automatically include a reference
 gulp wiredep
 ```
 
-####Debugging LESS Files####
-To debug LESS, follow [these instructions](http://robdodson.me/debug-less-with-chrome-developer-tools/#settingupchromeahrefidsettingupchromea) to enable CSS source maps in chrome. You only need to do the instructions under the 'Setting Up Chrome' section. The rest is already taken care of for you.
+####Debugging Less Files####
+To debug Less, follow [these instructions](http://robdodson.me/debug-less-with-chrome-developer-tools/#settingupchromeahrefidsettingupchromea) to enable CSS source maps in chrome. You only need to do the instructions under the 'Setting Up Chrome' section. The rest is already taken care of for you.
